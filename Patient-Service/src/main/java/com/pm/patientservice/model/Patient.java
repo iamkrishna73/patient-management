@@ -26,7 +26,7 @@ public class Patient {
     private LocalDate registeredDate;
 
 
-    public Patient( String name, String email, String address, LocalDate dateOfBirth, LocalDate registeredDate) {
+    public Patient(String name, String email, String address, LocalDate dateOfBirth, LocalDate registeredDate) {
         this.name = name;
         this.email = email;
         this.address = address;
@@ -37,8 +37,6 @@ public class Patient {
     public Patient() {
 
     }
-
-
 
     public UUID getId() {
         return id;
