@@ -1,11 +1,10 @@
 ### UPDATE patient request
-PUT localhost:8282/api/v1/patients/update/d42e13a7-aafe-403f-86ca-024b4b2919f5
+PUT localhost:8282/api/v1/patients/update/98733785-ef2e-4ca1-82af-d582c0bd2785
 Content-Type: application/json
 
 {
-  "name": "Howard Wolowitz",
-  "email": "bigPenis011@gmail.com",
+  "name": "Sheldon Cooper updated",
+  "email": "sheldon.cooper@caltech.edu",
   "address": "2311 North Los Robles Ave",
-  "dateOfBirth": "1981-07-30",
-  "registeredDate": "2000-05-12"
+  "dateOfBirth": "1980-02-26"
 }

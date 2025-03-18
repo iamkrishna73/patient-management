@@ -4,9 +4,9 @@ POST http://localhost:8282/api/v1/patients/save
 Content-Type: application/json
 
 {
- "name": "Howard Wolowitz",
-  "email": "bigPenis001@gmail.com",
+  "name": "Sheldon Cooper",
+  "email": "sheldon.cooper@caltech.edu",
   "address": "2311 North Los Robles Ave",
-  "dateOfBirth": "1981-07-30",
-  "registeredDate": "2000-05-12"
+  "dateOfBirth": "1980-02-26",
+  "registeredDate": "1999-09-15"
 }
