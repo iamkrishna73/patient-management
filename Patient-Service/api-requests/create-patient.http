@@ -1,0 +1,12 @@
+### Create new patient Request
+
+POST http://localhost:8282/api/v1/patients/save
+Content-Type: application/json
+
+{
+ "name": "Howard Wolowitz",
+  "email": "",
+  "address": "2311 North Los Robles Ave",
+  "dateOfBirth": "1981-07-30",
+  "registeredDate": "2000-05-12"
+}
